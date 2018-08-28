@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
   function appendThis() {
     let vidEl = document.createElement("iframe");
     vidEl.src = "https://www.youtube.com/embed/aSAuddBgyMs";
-    vidEl.width = "300";
-    vidEl.height = "200";
+    vidEl.width = "400";
+    vidEl.height = "300";
     thisDiv.appendChild(vidEl);
   }
 });
