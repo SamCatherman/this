@@ -31,6 +31,6 @@ function ConstructThis(name) {
 }
 
 let instance = new ConstructThis("Person");
-instance.whatDis(instance.name);
+instance.whatDis(this);
 
 console.log(`View source here: ${"https://github.com/SamCatherman/this"}`);
